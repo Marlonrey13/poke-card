@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Pokemon card random</title>
+</head>
+
+<body>
+  <main class="flex">
+  </main>
+
+  <template id="template-card">
+    <article class="card">
+      <img src="./images/bg-pattern-card.svg" alt="banner " class="card-header">
+      <div class="card-body">
+        <img src="./images/image-victor.jpg" alt="victor" class="card-body-img">
+        <h1 class="card-body-title">Victor Charst <span>26</span></h1>
+        <p class="card-body-text">London</p>
+      </div>
+      <div class="card-footer">
+        <div class="card-footer-social">
+          <h3>80K</h3>
+          <p>Ataque</p>
+        </div>
+        <div class="card-footer-social">
+          <h3>803K</h3>
+          <p>Ataque Especial</p>
+        </div>
+        <div class="card-footer-social">
+          <h3>1.4K</h3>
+          <p>Defensa</p>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script type="text/javascript" src="pokeAPI.js"></script>
+</body>
+</html>
